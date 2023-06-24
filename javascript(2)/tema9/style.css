@@ -1,0 +1,15 @@
+p{
+    color: rgb(18, 144, 255);
+    font-family: verdana;
+    font-size: 20px;
+    border: 1px solid rgb(0, 222, 251);
+    padding: 30px;
+    margin: 70px;
+
+}
+body {
+    background-color: rgba(7, 226, 255, 0.335);}
+    .error {
+        color: rgb(255, 104, 104);
+        font-family: verdana;
+      }

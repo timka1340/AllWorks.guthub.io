@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script>
+        const firebaseConfig = {
+  apiKey: "AIzaSyDkV46OAWt3T-4YYbKIHf8iH7sETr9eKCE",
+  authDomain: "christmas-fe4af.firebaseapp.com",
+  projectId: "christmas-fe4af",
+  storageBucket: "christmas-fe4af.appspot.com",
+  messagingSenderId: "416529199848",
+  appId: "1:416529199848:web:e6bbe3c102b539533f0f5d"
+};
+        firebase.initializeApp(firebaseConfig);
+
+        var db = firebase.firestore();
+    </script>
+    <h1>Списки користувачів</h1>
+    <table>
+        <thead>
+<tr>
+    <th>#</th>
+    <th>Phone</th>
+    <th>Email</th>
+    <th>Name</th>
+    <th>LastName</th>
+</tr>
+        </thead>
+        <tbody id="table"></tbody>
+    </table>
+    <script src="plov.js"></script>
+    <script src="z1.js"></script>
+</body>
+</html>

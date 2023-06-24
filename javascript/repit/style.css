@@ -1,0 +1,13 @@
+.car{
+width: 200px;
+height: 500px;
+border: 1px solid rgb(128, 106, 223);
+margin-left: 30px;
+}
+img{
+width: 200px;
+height: 200px;
+}
+.main{
+    display: flex;
+}

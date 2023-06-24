@@ -1,0 +1,10 @@
+<html>
+<head>
+<style>
+
+</style>
+</head>
+<body>
+<p id="text">Приветик!!!</p>
+</body>
+</html>

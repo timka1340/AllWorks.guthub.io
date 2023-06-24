@@ -1,0 +1,7 @@
+th,td{
+    border: 2px solid rgb(202, 193, 193);
+    text-align: center;
+}
+.gray{
+    background: rgb(34, 39, 109);
+}
